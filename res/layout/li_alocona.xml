@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:paddingLeft="10.0dip"
+    android:paddingTop="5.0dip"
+    android:paddingRight="10.0dip"
+    android:paddingBottom="5.0dip"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:background="@drawable/btn_style_1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView android:textSize="14.0sp"
+            android:textColor="#ff0000ff"
+            android:layout_gravity="center"
+            android:id="@+id/tvAloconaSerial"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5.0dip"
+            android:maxLines="1"
+            android:layout_weight="0.5" />
+        <bd.org.shibir.model.TextViewWithBanglaFont
+            android:textSize="14.0sp"
+            android:textColor="#ff0000ff"
+            android:layout_gravity="center"
+            android:id="@+id/tvTopicNameAlocona"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_margin="5.0dip"
+            android:text="বিষয়"
+            android:maxLines="2"
+            android:layout_weight="5.0" />
+        <CheckBox
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@+id/cbAlocona"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:clickable="false"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5.0dip"
+            android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

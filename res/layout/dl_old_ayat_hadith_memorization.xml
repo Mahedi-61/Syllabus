@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="#ff000000"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:layout_marginLeft="20.0dip"
+        android:layout_marginRight="20.0dip">
+        <bd.org.shibir.model.TextViewWithBanglaFont
+            android:textSize="15.0sp" 
+            android:textColor="#ffffffff" 
+            android:layout_width="100.0dip" 
+            android:layout_height="wrap_content" 
+            android:text="বিষয়ের নামঃ" />
+        <TextView 
+            android:textSize="15.0sp" 
+            android:textStyle="bold" 
+            android:textColor="#ffffffff"
+            android:id="@+id/dl_tvTopicNameOAHM" 
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content" 
+            android:maxLines="2" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20.0dip" 
+        android:layout_marginTop="5.0dip" 
+        android:layout_marginRight="20.0dip">
+        <bd.org.shibir.syllabus.model.TextViewWithBanglaFont 
+            android:textSize="15.0sp"
+            android:textColor="#ffffffff" 
+            android:layout_width="60.0dip" 
+            android:layout_height="wrap_content" 
+            android:text="কুরআন" />
+        <EditText
+            android:id="@+id/dl_etAyatOAHM"
+            android:layout_width="50.0dip" 
+            android:layout_height="wrap_content" 
+            android:layout_marginLeft="5.0dip" 
+            android:maxLength="2" 
+            android:inputType="number" />
+        <requestFocus />
+        <bd.org.shibir.syllabus.model.TextViewWithBanglaFont
+            android:textSize="15.0sp" 
+            android:textColor="#ffffffff" 
+            android:layout_width="50.0dip" 
+            android:layout_height="wrap_content" 
+            android:layout_marginLeft="15.0dip" 
+            android:text="হাদীস" />
+        <EditText
+            android:id="@+id/dl_etHadithOAHM" 
+            android:layout_width="50.0dip"
+            android:layout_height="wrap_content" 
+            android:layout_marginLeft="5.0dip" 
+            android:maxLength="2" 
+            android:inputType="number" />
+    </LinearLayout>
+    <TableRow 
+        android:gravity="center_vertical" 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:layout_margin="20.0dip">
+        <Button 
+            android:textSize="16.0sp" 
+            android:textStyle="bold" 
+            android:textColor="#ffffffff" 
+            android:id="@+id/bCancelOldAHM" 
+            android:background="@drawable/asim_button_blue" 
+            android:layout_width="0.0dip" 
+            android:layout_height="40.0dip" 
+            android:text="Cancel" 
+            android:layout_weight="1.0" />
+        <TextView
+            android:layout_width="0.0dip" 
+            android:layout_height="wrap_content" 
+            android:layout_weight="0.2" />
+        <Button
+            android:textSize="16.0sp"
+            android:textStyle="bold" 
+            android:textColor="#ffffffff" 
+            android:id="@+id/bSaveOldAHM" 
+            android:background="@drawable/asim_button_blue" 
+            android:layout_width="0.0dip" 
+            android:layout_height="40.0dip" 
+            android:text="Save" 
+            android:layout_weight="1.0" />
+    </TableRow>
+</LinearLayout>

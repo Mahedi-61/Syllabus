@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="#ffffffff"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableRow
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10.0dip">
+        <TextView
+            android:textColor="#ff000000"
+            android:gravity="right"
+            android:layout_width="70.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5.0dip"
+            android:text="Name:" />
+        <EditText
+            android:textColor="#ff000000"
+            android:id="@+id/etTargetName"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:ems="12"
+            android:layout_weight="1.0"
+            android:inputType="text" />
+        <requestFocus />
+    </TableRow>
+    <TableRow
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10.0dip">
+        <TextView
+            android:textColor="#ff000000"
+            android:gravity="right"
+            android:layout_width="70.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5.0dip"
+            android:text="Target For:" />
+        <Spinner
+            android:id="@+id/spTargetStatus"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0" />
+    </TableRow>
+    <TableRow
+        android:gravity="center_vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20.0dip">
+        <Button
+            android:textSize="16.0sp"
+            android:textStyle="bold"
+            android:textColor="#ffffffff"
+            android:id="@+id/bCancelAddNewTarget"
+            android:background="@drawable/asim_button_blue"
+            android:layout_width="0.0dip"
+            android:layout_height="40.0dip"
+            android:text="Cancel"
+            android:layout_weight="1.0" />
+        <TextView
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2" />
+        <Button
+            android:textSize="16.0sp"
+            android:textStyle="bold"
+            android:textColor="#ffffffff"
+            android:id="@+id/bSaveAddNewTarget"
+            android:background="@drawable/asim_button_blue"
+            android:layout_width="0.0dip"
+            android:layout_height="40.0dip"
+            android:text="Save"
+            android:layout_weight="1.0" />
+    </TableRow>
+</LinearLayout>

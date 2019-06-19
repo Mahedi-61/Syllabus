@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/syllabus_bg"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+    >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button android:textSize="20.0sp"
+                android:textColor="#ff483d8b"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:id="@+id/bWorkerSyllabus"
+                android:background="@drawable/button_mahedi"
+                android:layout_width="150.0dip"
+                android:layout_height="40.0dip" />
+            <Button
+                android:textSize="20.0sp"
+                android:textColor="#ff483d8b"
+                android:gravity="center"
+                android:id="@+id/bAssociateSyllabus"
+                android:background="@drawable/button_mahedi"
+                android:layout_width="150.0dip"
+                android:layout_height="40.0dip" />
+        </LinearLayout>
+        <Button
+            android:textSize="20.0sp"
+            android:textColor="#ff483d8b"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@+id/bMemberSyllabus"
+            android:background="@drawable/button_mahedi"
+            android:layout_width="150.0dip"
+            android:layout_height="40.0dip" />
+        <Button
+            android:textSize="20.0sp"
+            android:textColor="#ff483d8b"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@+id/bSchoolSyllabus"
+            android:background="@drawable/button_mahedi"
+            android:layout_width="150.0dip"
+            android:layout_height="40.0dip" />
+        <Button
+            android:textSize="20.0sp"
+            android:textColor="#ff483d8b"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@+id/bHigherSyllabus"
+            android:background="@drawable/button_mahedi"
+            android:layout_width="150.0dip"
+            android:layout_height="40.0dip"
+            android:layout_marginBottom="50.0dip" />
+    </LinearLayout>
+</RelativeLayout>

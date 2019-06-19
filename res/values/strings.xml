@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Syllabus</string>
+    <string name="abc_action_mode_done">Done</string>
+    <string name="abc_action_bar_home_description">Navigate home</string>
+    <string name="abc_action_bar_up_description">Navigate up</string>
+    <string name="abc_action_menu_overflow_description">More options</string>
+    <string name="abc_searchview_description_search">Search</string>
+    <string name="abc_searchview_description_query">Search query</string>
+    <string name="abc_searchview_description_clear">Clear query</string>
+    <string name="abc_searchview_description_submit">Submit query</string>
+    <string name="abc_searchview_description_voice">Voice search</string>
+    <string name="abc_activitychooserview_choose_application">Choose an app</string>
+    <string name="abc_activity_chooser_view_see_all">See all</string>
+    <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
+    <string name="abc_shareactionprovider_share_with">Share with</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_member_study_syllabus">MemberStudySyllabus</string>
+    <string name="about_syllabus">&lt;p&gt; প্রত্যেক মুসলিম নর-নারীর উপর জ্ঞান অর্জন করা ফরজ। ইসলাম সম্পর্কে সুস্পষ্ট জ্ঞান ও সঠিক ধারণা ছাড়া কোন মুসলমানের পক্ষেই পথ চলা সম্ভব নয়। জ্ঞান মুসলমানদের হারানো সম্পদ। অধিকিন্তু একবিংশ শতাব্দীর আধুনিক জাহিলিয়াতকে মোকাবেলা করার জন্য প্রয়োজন একদল যোগ্য মানুষের যারা ইসলামী জ্ঞান ও চরিত্রে হবে অসাধারণ। এ লক্ষ্যকে সামনে রেখেই গাইড লাইন হিসেবে ইসলামী ছাত্রশিবিরের বিভিন্ন স্তরের কর্মীদের জন্য সিলেবাস তৈরী করা হলো। &lt;/p&gt; &lt;br/&gt;&lt;p&gt; সময়ের দাবী ও বাস্তবতাকে সামনে রেখে সিলেবাসের কিছু পরিবর্তন আনা হয়েছে। সিলেবাসের আলোকে অধ্যয়ন করলে অল্প সময়ে অধিক জ্ঞান অর্জন ও ইসলামের বিভিন্ন দিক ও বিভাগ সম্পর্কে ধারনা লাভ করা সম্ভব হবে বলে আমাদের বিশ্বাস। আল্লাহ আমাদের সহায় হোন। &lt;/p&gt;</string>
+
+</resources>

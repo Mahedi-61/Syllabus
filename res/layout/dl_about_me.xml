@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="#ffffffff"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <TextView
+            android:textColor="#ff000000"
+            android:gravity="left"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginTop="5.0dip"
+            android:layout_marginRight="20.0dip"
+            android:text="User Name" />
+        <EditText
+            android:textColor="#ff000000"
+            android:id="@+id/etUserNameSettings"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginTop="5.0dip"
+            android:layout_marginRight="20.0dip"
+            android:maxLines="1"
+            android:ems="12"
+            android:inputType="text" />
+        <requestFocus />
+        <TextView
+            android:textColor="#ff000000"
+            android:gravity="left"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginTop="10.0dip"
+            android:layout_marginRight="20.0dip"
+            android:text="Branch Name" />
+        <EditText
+            android:textColor="#ff000000"
+            android:id="@+id/etBranchNameSettings"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginTop="5.0dip"
+            android:layout_marginRight="20.0dip"
+            android:maxLines="1"
+            android:ems="12"
+            android:inputType="text" />
+        <TextView
+            android:textColor="#ff000000"
+            android:gravity="left"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginTop="10.0dip"
+            android:layout_marginRight="20.0dip"
+            android:text="Responsibility" />
+        <EditText
+            android:textColor="#ff000000"
+            android:id="@+id/etResponsibilitySettings"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginTop="5.0dip"
+            android:layout_marginRight="20.0dip"
+            android:maxLines="1"
+            android:ems="12"
+            android:inputType="text" />
+        <TextView
+            android:textColor="#ff000000"
+            android:gravity="left"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginTop="10.0dip"
+            android:layout_marginRight="20.0dip"
+            android:text="Department" />
+        <EditText
+            android:textColor="#ff000000"
+            android:id="@+id/etDepartmentSettings"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginTop="5.0dip"
+            android:layout_marginRight="20.0dip"
+            android:maxLines="1"
+            android:ems="12"
+            android:inputType="text" />
+        <TableRow
+            android:gravity="center_vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20.0dip"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginTop="10.0dip">
+            <Button
+                android:textSize="16.0sp"
+                android:textStyle="bold"
+                android:textColor="#ffffffff"
+                android:id="@+id/bCancelProfileSettings"
+                android:background="@drawable/asim_button_blue"
+                android:layout_width="0.0dip"
+                android:layout_height="40.0dip"
+                android:text="Cancel"
+                android:layout_weight="1.0" />
+            <TextView
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2" />
+            <Button
+                android:textSize="16.0sp"
+                android:textStyle="bold"
+                android:textColor="#ffffffff"
+                android:id="@+id/bSaveProfileSettings"
+                android:background="@drawable/asim_button_blue"
+                android:layout_width="0.0dip"
+                android:layout_height="40.0dip"
+                android:text="Save"
+                android:layout_weight="1.0" />
+        </TableRow>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/menu_icon"
+        android:orderInCategory="100"
+        android:title="Overflow"
+        app:showAsAction="always">
+        <menu>
+            <item android:id="@+id/menuAboutMe"
+                android:title="About Me"
+                app:showAsAction="never" />
+            <item android:id="@+id/menuChangePassword"
+                android:title="Change Password"
+                app:showAsAction="withText" />
+            <item android:id="@+id/menuBackupPassword"
+                android:title="Backup Password"
+                app:showAsAction="withText" />
+        </menu>
+    </item>
+</menu>

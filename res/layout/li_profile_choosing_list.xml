@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:paddingLeft="10.0dip"
+    android:paddingTop="5.0dip"
+    android:paddingRight="10.0dip"
+    android:paddingBottom="5.0dip"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:background="@drawable/button_mahedi"
+        android:padding="5.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.85">
+            <bd.org.shibir.model.TextViewWithBanglaFont
+                android:textSize="20.0sp"
+                android:textColor="#ff333333"
+                android:gravity="center_vertical"
+                android:layout_gravity="center"
+                android:id="@+id/tvTargetNamePC"
+                android:paddingLeft="15.0sp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="someone name"
+                android:layout_weight="0.67" />
+            <bd.org.shibir.model.TextViewWithBanglaFont
+                android:textSize="16.0sp"
+                android:textColor="#ff333333"
+                android:gravity="center_vertical"
+                android:layout_gravity="center"
+                android:id="@+id/tvTargetStatusPC"
+                android:paddingLeft="15.0sp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="any branch"
+                android:layout_weight="0.3" />
+        </LinearLayout>
+        <ImageView
+            android:gravity="center_vertical"
+            android:layout_gravity="center"
+            android:id="@+id/ivDeletePC"
+            android:paddingLeft="10.0dip"
+            android:paddingRight="10.0sp"
+            android:layout_width="0.0dip"
+            android:layout_height="30.0dip"
+            android:src="@drawable/icon_delete"
+            android:layout_weight="0.15" />
+    </LinearLayout>
+</LinearLayout>
